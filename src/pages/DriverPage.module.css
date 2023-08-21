@@ -1,0 +1,26 @@
+.container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 55rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    
+    
+}
+
+.disc {
+    margin-top: 0.5rem;
+    height: 3.4rem;
+    width: 8.4rem;
+    border-radius: 999px;
+    background-color: #E5D8EA;
+    margin-bottom: 4rem;
+}
+ 

@@ -1,0 +1,21 @@
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 42rem;
+    height: 5.125rem;
+    
+}
+.name {
+ color: #864293;
+    
+}
+.title {
+    font-family:'Inter', sans-serif;
+    font-weight: 700px;
+    font-size: 2rem;
+    
+}
+.subtitle {
+    font-size:1.25rem;    
+}
