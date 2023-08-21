@@ -4,13 +4,13 @@
 Essa é uma atividade individual da disciplina de programação para web 2 (IFPB, campus Cajazeiras).
 
 ## Objetivo
-O objetivo dessa atividade é reproduzir o protótipo do widget disponibilizado pelo professor utilizando React.
+O objetivo desta atividade é recriar o protótipo do widget disponibilizado pelo professor utilizando React.
 
 ## Como rodar
 
 Clone o repositório com o seguinte comando:
 ```
-git clone https://github.com/jose-farley/React-Ignite-02.git
+git clone https://github.com/jose-farley/Widget-React.git
 ```
 Entre na pasta do projeto que você acabou de clonar e use os seguintes comandos:
 ```
