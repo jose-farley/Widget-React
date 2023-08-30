@@ -1,38 +1,17 @@
-.containerComment {
+.containerCommentPublished {
     display: flex;
-    margin-top: 6rem;
-    width: 43rem;
-    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0EAEA;
+    padding: 0.4rem 1rem;
+    border-radius: 9px;
 }
-.inputComment {
-    border-radius: 8px;
-    padding: 1rem 2rem;
-    border:none;
-    outline: none;
-    background-color: #F5EDF7;
-    width: 28.8rem;
-    font-size: 1rem;
-}
-.containerComment button {
-    background-color: #00875F;
-    color: white;
-    font-weight: bold;
-    border: none;
-    height: 49px;
-    width: 108px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.2s;
-    &:hover {
-        background-color: #027754;
-       
-    }
+.containerCommentPublished p {
+    width: 25rem;
+    text-align: justify;
+    font-size: 10pt;
 }
 
-.phoneIcon {
+.icon {
     cursor: pointer;
-}
-.shieldIcon {
-    cursor: pointer;
-  
 }

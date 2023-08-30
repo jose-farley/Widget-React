@@ -1,19 +1,22 @@
-import phone from '../../assets/phone.png'
-import shield from '../../assets/shield.png'
 import style from './Comment.module.css'
+
+import trash from '../../assets/trash.png'
+import user from '../../assets/user.png'
+
 interface props {
-    driver:string
+    userImage?:string
+    content:string
+    onDelete:any
 }
-
-
-export function Comment({driver}:props){
+export function Comment({userImage, content, onDelete}:props){
+    function handleDeleteComment(){
+        onDelete(content)
+    }
     return (
-        <div className={style.containerComment}>
-            <input className={style.inputComment} type="text" placeholder={`Enviar mensagem para ${driver}...`}/>
-
-            <button>Publicar</button>
-            <img className={style.phoneIcon} src={phone} />
-            <img className={style.shieldIcon} src={shield} />
+        <div className={style.containerCommentPublished}>
+            <img src={(userImage==undefined)?user:userImage} />
+            <p>{content}</p>
+            <img className={style.icon} onClick={handleDeleteComment} src={trash}/>
         </div>
     )
 }
